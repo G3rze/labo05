@@ -3,7 +3,9 @@ package org.example.buhosapp.common.mappers;
 import org.example.buhosapp.domain.dtos.request.CreateUserRequest;
 import org.example.buhosapp.domain.dtos.response.UserResponse;
 import org.example.buhosapp.domain.entities.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public class UserMapper {
 
     public User toEntity(CreateUserRequest request) {

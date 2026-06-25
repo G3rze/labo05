@@ -44,6 +44,7 @@ jobs:
           DATABASE_NAME=buhosapp_ci
           DATABASE_USERNAME=ci_user
           DATABASE_PASSWORD=ci_password
+          DATABASE_URL=jdbc:postgresql://db:5432/buhosapp_ci
           SPRING_JPA_SHOW_SQL=false
           SPRING_JPA_HIBERNATE_DDL=update
           SPRING_JPA_HIBERNATE_DIALECT=org.hibernate.dialect.PostgreSQLDialect

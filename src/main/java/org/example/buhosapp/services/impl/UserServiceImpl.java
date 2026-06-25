@@ -7,8 +7,10 @@ import org.example.buhosapp.domain.entities.User;
 import org.example.buhosapp.exceptions.ResourceNotFoundException;
 import org.example.buhosapp.repositories.UserRepository;
 import org.example.buhosapp.services.UserService;
+import org.springframework.stereotype.Service;
 import java.util.UUID;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
